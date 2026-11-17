@@ -1,4 +1,3 @@
-// import React from 'react'
 import { Signup as SignupComponent } from '../componet/index.js'
 
 function Signup() {

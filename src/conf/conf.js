@@ -1,16 +1,3 @@
-// const conf=()=>{
-
-//     appWriteurl: String(import.meta.env.VITE_APPWRITER_URL)
-//     appWriteProjectId: String(VITE_APPWRITE_PROJECT_ID)
-//     appWriteDatabseId: String(VITE_APPWRITE_DATABSE_ID)
-//     appWriteCollectionId: String(VITE_APPWRITE_COLLECT_ID)
-//     appWriteBucketId: String(VITE_APPWRITE_BUCKET_ID)
-// }
-
-// export default conf
-
-
-
 const conf = {
     appwriteUrl: String(import.meta.env.VITE_APPWRITE_URL),
     appwriteProjectId: String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
@@ -19,19 +6,8 @@ const conf = {
     appwriteBucketId: String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 }
 
-// there was a name issue with the import.meta.env.VITE_APPWRITE_URL, it was later fixed in debugging video
-
 export default conf
 
 
 
 
-// const conf = {
-//     appwriteUrl: import.meta.env.VITE_APPWRITE_URL,
-//     appwriteProjectId: import.meta.env.VITE_APPWRITE_PROJECT_ID,
-// };
-
-// console.log("Appwrite URL:", conf.appwriteUrl);
-// // console.log("Project ID:", conf.appwriteProjectId);
-
-// export default conf;
